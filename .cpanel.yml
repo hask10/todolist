@@ -1,7 +1,7 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/knowledge/public_html/todolist
+    - export DEPLOYPATH=/home/knowledge/public_html/todolist.knowledge-fort.com
     - /bin/cp * $DEPLOYPATH
     - /bin/cp -R * $DEPLOYPATH 
     # -R For Directories , * is for all
