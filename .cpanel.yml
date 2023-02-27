@@ -1,5 +1,5 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/knowledge/public_html/
+    - export DEPLOYPATH=/home/knowledge/public_html/todolist
     - /bin/cp * $DEPLOYPATH
